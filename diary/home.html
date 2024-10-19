@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>私のウェブページ</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <h1>はじめまして！YKKAPです。</h1>
+    <p>最初のウェブページです。</p>
+
+    <!-- テーマ切り替えボタン -->
+    <div id="theme-switch">
+        <button id="toggle-theme">ダーク/ライトモード切替</button>
+    </div>
+
+    <!-- おみくじ機能の追加 -->
+    <div id="omikuji">
+        <button id="omikuji-button">おみくじを引く</button>
+        <p id="omikuji-result"></p>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="diary.html">・日記</a></li>
+            <li><a href="web.html">・映画見る？</a></li>
+            <li><a href="beer.html">・ビールを飲む</a></li>
+        </ul>
+    </nav>
+    
+    <a href="https://www.youtube.com/watch?v=nO53tXq0tMs/">　　　　　夢見る魚</a>
+    <img src="images/doseisan.jpg" id="dosei-image">
+    
+    <section id="blog">
+    <h2>私のブログ</h2>
+    
+    <article>
+        <h3>今日の出来事</h3>
+        <p>今日は友達とカフェに行って、楽しい時間を過ごしました。</p>
+        <footer>
+            <p>投稿日: 2024年10月19日</p>
+        </footer>
+    </article>
+
+    <article>
+        <h3>最近の映画</h3>
+        <p>最近観た映画『ノーカントリー』がとても面白かったです。ストーリーが緊張感に満ちていて、最後まで目が離せませんでした。</p>
+        <footer>
+            <p>投稿日: 2024年10月17日</p>
+        </footer>
+    </article>
+</section>
+
+    <!-- JavaScriptを追加 -->
+    <script src="js/omikuji.js"></script>
+    <script src="js/theme-switch.js"></script>
+    <script src="js/font-switch.js"></script>
+</body>
+</html>
+

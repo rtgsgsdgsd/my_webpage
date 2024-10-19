@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ウェブ映画館</title>
+    <link rel="stylesheet" href="css/web.css">
+</head>
+<body> 
+    <header>
+        <h1>ホームシアター江別</h1>
+        <h4>リバイバル上映中</h4>
+        <p><a href="home.html">ホームに戻る</a></p>
+    </header>
+      <!-- 追加: ナビゲーションセクション -->
+    <nav>
+        <p>～上映中～</p>
+        <ul>
+            <li><a href="#taxi-driver">タクシードライバー</a></li>
+            <li><a href="#no-country">ノーカントリー</a></li>
+            <li><a href="#ghost-in-the-shell">GHOST IN THE SHELL / 攻殻機動隊</a></li>
+            <li><a href="#keimusyo">刑務所の中</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="movie-section" id="taxi-driver">
+            <h2>タクシードライバー</h2>
+            <img src="posters/taxidriver.jpg" alt="タクシードライバーポスター" class="movie-poster">
+            <p>1976年公開　ロバート・デニーロ主演</p>
+            <p>ベトナム戦争から帰還した1人の青年は、ニューヨークの夜の街をタクシーで流しながら、世界の不浄さに苛立ちを感じていた。大統領候補の選挙事務所に勤める女性と親しくなる彼だったが、その恋もうまくいかず。やがて、闇ルートから銃を手に入れた彼は自己鍛錬を始める。そして、彼の胸中にひとつの計画が沸き上がる。</p>
+            <div class="vid-contents">
+                <video class="vid-main" src="images/taxi_driver.mp4" poster="posters/poster1.jpg" controls loop playsinline muted>
+                    <track src="subtitles/taxi_driver.vtt" kind="subtitles" srclang="ja" label="日本語" default>
+                </video>
+            </div>
+        </section>
+
+        <section class="movie-section" id="no-country">
+            <h3>ノーカントリー</h3>
+            <img src="posters/no_country_poster.jpg" alt="ノーカントリーポスター" class="movie-poster">
+            <p>2007年公開　ハビエル・バルデム　トミー・リー・ジョーンズ　ジョシュ・ブローリン　主演</p>
+            <p>メキシコ国境に近いテキサスの荒野。帰還兵の男が、麻薬取引中に銃撃戦が行われたと思しき現場に出くわす。複数の死体の近くには、200万ドルの大金が残されていた。彼は、危険と知りつつそれを持ち帰ってしまう。そしてそれがきっかけで、冷酷な謎の暗殺者に追われる身となる。</p>
+            <div class="vid-contents">
+                <video class="vid-main" src="images/No.Country.For.Old.Men.2007.1080p.BrRip.x264.YIFY.mp4" poster="posters/poster2.jpg" controls loop playsinline muted>
+                    <track src="subtitles/no_country.vtt" kind="subtitles" srclang="ja" label="日本語" default>
+                </video>
+            </div>
+        </section>
+
+        <section class="movie-section" id="ghost-in-the-shell">
+            <h4>GHOST IN THE SHELL / 攻殻機動隊</h4>
+            <img src="posters/ghost_in_the_shell_poster.jpg" alt="攻殻機動隊ポスター" class="movie-poster">
+            <p>1996年公開</p>
+            <p>西暦2029年。公安の精鋭による特殊部隊「攻殻機動隊」が、国際手配中のハッカー「人形使い」が日本に現れるとの情報を掴む。そんな折に搬送されてきた、事故に遭ったというサイボーグ。その体には、危険な秘密が隠されていた。</p>
+            <div class="vid-contents">
+                <video class="vid-main" src="images/ghost_in_the_shell.mp4" controls loop playsinline muted></video>
+            </div>
+        </section>
+
+        <section class="movie-section" id="keimusyo">
+            <h4>刑務所の中</h4>
+            <img src="posters/keimusyo.jpg" alt="刑務所の中ポスター" class="movie-poster">
+            <p>2002年公開</p>
+            <p>ハナワカズイチは銃砲刀剣類等不法所持、火薬類取締法違反で懲役3年の刑を受け、日高刑務所での刑務所生活を始める。ハナワは4人の受刑者たちと同房し、次第に奇妙な連帯感で結ばれていく。</p>
+            <div class="vid-contents">
+                <video class="vid-main" src="images/keimusyo.mp4" controls loop playsinline muted></video>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 マイホームシアター. All rights reserved.</p>
+    </footer>
+</body>
+</html>

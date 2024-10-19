@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>日記を書く</title>
+</head>
+<body>
+    <h1>日記を書く</h1>
+    <form action="save_diary.php" method="post">
+        <label for="title">タイトル:</label><br>
+        <input type="text" id="title" name="title" required><br><br>
+        <label for="content">内容:</label><br>
+        <textarea id="content" name="content" rows="10" cols="30" required></textarea><br><br>
+        <button type="submit">保存する</button>
+    </form>
+</body>
+</html>

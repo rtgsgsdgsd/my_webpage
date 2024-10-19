@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #222;
+    color: #f0f0f0;
+}
+
+h1 {
+    color: inherit;
+}
+
+p {
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+#omikuji {
+    margin-top: 20px;
+}
+
+#omikuji-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: #222;
+}
+
+#omikuji-result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0066cc;
+}
+
+#toggle-theme {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+body.dark-mode #toggle-theme {
+    background-color: #ffcc00;
+    color: #222;
+}
+
+@font-face {
+    font-family: "DoseiSan";
+    src: url("fonts/dosei-san.ttf") format("truetype");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s, font-family 0.3s;
+}
+
+body.dosei-font {
+    font-family: "DoseiSan", sans-serif;
+}
+
+body.dark-mode {
+    background-color: #222;
+    color: #f0f0f0;
+}
+
+/* 他のCSSもそのまま維持 */
